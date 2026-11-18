@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" role="img" aria-label="Ilustrasi gedung sekolah dan dokumen akademik yang terverifikasi">
+  <style>
+    .float-a{animation:fa 6s ease-in-out infinite}.float-b{animation:fb 7s ease-in-out infinite}.float-c{animation:fa 8s ease-in-out infinite .8s}
+    .pulse{transform-origin:center;transform-box:fill-box;animation:pl 2.6s ease-in-out infinite}
+    @keyframes fa{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    @keyframes fb{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+    @keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+    @media (prefers-reduced-motion:reduce){.float-a,.float-b,.float-c,.pulse{animation:none}}
+  </style>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF2FF"/><stop offset="1" stop-color="#C9DDF7"/></linearGradient>
+  </defs>
+  <rect x="20" y="20" width="480" height="360" rx="24" fill="url(#sky)"/>
+  <circle cx="430" cy="80" r="34" fill="#FFFFFF" opacity=".7"/>
+  <circle cx="90" cy="320" r="60" fill="#FFFFFF" opacity=".35"/>
+
+  <!-- gedung sekolah -->
+  <g>
+    <rect x="130" y="190" width="260" height="130" fill="#FFFFFF" stroke="#1F4E79" stroke-width="3"/>
+    <polygon points="110,190 260,115 410,190" fill="#2F65B9" stroke="#1F4E79" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="240" y="150" width="40" height="30" rx="3" fill="#FFFFFF" opacity=".9"/>
+    <g fill="#1F4E79"><rect x="152" y="208" width="14" height="112"/><rect x="188" y="208" width="14" height="112"/><rect x="318" y="208" width="14" height="112"/><rect x="354" y="208" width="14" height="112"/></g>
+    <rect x="232" y="240" width="56" height="80" rx="3" fill="#EAF2FF" stroke="#1F4E79" stroke-width="3"/>
+    <line x1="260" y1="240" x2="260" y2="320" stroke="#1F4E79" stroke-width="3"/>
+    <rect x="110" y="320" width="300" height="12" rx="3" fill="#1F4E79"/>
+    <line x1="260" y1="115" x2="260" y2="88" stroke="#1F4E79" stroke-width="3"/>
+    <polygon points="260,88 292,98 260,108" fill="#16845B"/>
+  </g>
+
+  <!-- kartu dokumen melayang -->
+  <g class="float-a">
+    <rect x="48" y="96" width="132" height="86" rx="10" fill="#FFFFFF" stroke="#D5DEEA" stroke-width="2"/>
+    <rect x="62" y="110" width="60" height="8" rx="4" fill="#1F4E79"/>
+    <rect x="62" y="128" width="100" height="6" rx="3" fill="#D5DEEA"/><rect x="62" y="142" width="82" height="6" rx="3" fill="#D5DEEA"/>
+    <circle cx="152" cy="162" r="11" fill="#16845B"/><path d="m146 162 4 4 8-8" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g class="float-b">
+    <rect x="352" y="132" width="128" height="80" rx="10" fill="#FFFFFF" stroke="#D5DEEA" stroke-width="2"/>
+    <rect x="366" y="146" width="52" height="8" rx="4" fill="#2F65B9"/>
+    <rect x="366" y="164" width="96" height="6" rx="3" fill="#D5DEEA"/><rect x="366" y="178" width="70" height="6" rx="3" fill="#D5DEEA"/>
+    <rect x="366" y="192" width="40" height="10" rx="5" fill="#EAF2FF"/>
+  </g>
+  <g class="float-c">
+    <path d="M118 262c0-8 6-14 14-14h22c8 0 14 6 14 14v22c0 8-6 14-14 14h-22c-8 0-14-6-14-14z" fill="#FFFFFF" stroke="#D5DEEA" stroke-width="2"/>
+    <path d="m132 273 8 8 14-14" stroke="#16845B" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g class="pulse">
+    <circle cx="420" cy="288" r="26" fill="#FFFFFF" stroke="#D5DEEA" stroke-width="2"/>
+    <path d="M420 274l12 5v9c0 8-5 13-12 16-7-3-12-8-12-16v-9z" fill="#2F65B9"/>
+    <path d="m414 288 4 4 8-8" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
